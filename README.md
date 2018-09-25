@@ -1,4 +1,7 @@
 # Glyph
+
+[![Build Status](https://travis-ci.org/SoumeshBanerjee/Glyph.svg?branch=master)](https://travis-ci.org/SoumeshBanerjee/Glyph)
+
 Glyph is an iOS app for searching images in flickr
 
 ### Description
