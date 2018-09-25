@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode10
+
+script:
+  - xcodebuild -project Glyph.xcodeproj -scheme Glyph -destination "platform=iOS Simulator,name=iPhone 7" -sdk iphonesimulator12.0 CODE_SIGNING_REQUIRED=NO
