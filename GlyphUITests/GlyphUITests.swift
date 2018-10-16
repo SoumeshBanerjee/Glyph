@@ -42,14 +42,13 @@ class GlyphUITests: XCTestCase {
         let app = XCUIApplication()
         let collectionViewsQuery = app.collectionViews
         let exists = NSPredicate(format: "count >= 10")
-        wait(for: [expectation(for: exists, evaluatedWith: collectionViewsQuery.cells, handler: nil)], timeout: 20)
+        wait(for: [expectation(for: exists, evaluatedWith: collectionViewsQuery.cells, handler: nil)], timeout: 40)
         
+        collectionViewsQuery.children(matching: .cell).element(boundBy: 3).children(matching: .other).element.swipeUp()
         collectionViewsQuery.children(matching: .cell).element(boundBy: 10).children(matching: .other).element.swipeUp()
-        collectionViewsQuery.children(matching: .cell).element(boundBy: 20).children(matching: .other).element.swipeUp()
         
-        collectionViewsQuery.children(matching: .cell).element(boundBy: 15).children(matching: .other).element.swipeDown()
-        collectionViewsQuery.children(matching: .cell).element(boundBy: 7).children(matching: .other).element.swipeDown()
-        
+        collectionViewsQuery.children(matching: .cell).element(boundBy: 17).children(matching: .other).element.swipeDown()
+        collectionViewsQuery.children(matching: .cell).element(boundBy: 11).children(matching: .other).element.swipeDown()
         
     }
 
