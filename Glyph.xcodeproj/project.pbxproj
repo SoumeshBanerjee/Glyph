@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815F0D942175B811002C3AA6 /* GlyphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F0D932175B811002C3AA6 /* GlyphTests.swift */; };
+		815F0DA22175B909002C3AA6 /* GlyphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F0DA12175B909002C3AA6 /* GlyphUITests.swift */; };
 		9BD31EBF2158FAB4004FD157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD31EBE2158FAB4004FD157 /* AppDelegate.swift */; };
 		9BD31EC42158FAB4004FD157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD31EC22158FAB4004FD157 /* Main.storyboard */; };
 		9BD31EC92158FAB5004FD157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD31EC82158FAB5004FD157 /* Assets.xcassets */; };
@@ -19,7 +21,30 @@
 		9BD31F3C2159789E004FD157 /* CollectionViewController+URLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD31F3B2159789E004FD157 /* CollectionViewController+URLSessionDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		815F0D962175B811002C3AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD31EB32158FAB4004FD157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD31EBA2158FAB4004FD157;
+			remoteInfo = Glyph;
+		};
+		815F0DA42175B909002C3AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD31EB32158FAB4004FD157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD31EBA2158FAB4004FD157;
+			remoteInfo = Glyph;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		815F0D912175B811002C3AA6 /* GlyphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlyphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F0D932175B811002C3AA6 /* GlyphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphTests.swift; sourceTree = "<group>"; };
+		815F0D952175B811002C3AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815F0D9F2175B909002C3AA6 /* GlyphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlyphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F0DA12175B909002C3AA6 /* GlyphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphUITests.swift; sourceTree = "<group>"; };
+		815F0DA32175B909002C3AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD31EBB2158FAB4004FD157 /* Glyph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glyph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD31EBE2158FAB4004FD157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD31EC32158FAB4004FD157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +60,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		815F0D8E2175B811002C3AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F0D9C2175B909002C3AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BD31EB82158FAB4004FD157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +84,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815F0D922175B811002C3AA6 /* GlyphTests */ = {
+			isa = PBXGroup;
+			children = (
+				815F0D932175B811002C3AA6 /* GlyphTests.swift */,
+				815F0D952175B811002C3AA6 /* Info.plist */,
+			);
+			path = GlyphTests;
+			sourceTree = "<group>";
+		};
+		815F0DA02175B909002C3AA6 /* GlyphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				815F0DA12175B909002C3AA6 /* GlyphUITests.swift */,
+				815F0DA32175B909002C3AA6 /* Info.plist */,
+			);
+			path = GlyphUITests;
+			sourceTree = "<group>";
+		};
 		9BD31EB22158FAB4004FD157 = {
 			isa = PBXGroup;
 			children = (
 				9BD31EBD2158FAB4004FD157 /* Glyph */,
+				815F0D922175B811002C3AA6 /* GlyphTests */,
+				815F0DA02175B909002C3AA6 /* GlyphUITests */,
 				9BD31EBC2158FAB4004FD157 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				9BD31EBB2158FAB4004FD157 /* Glyph.app */,
+				815F0D912175B811002C3AA6 /* GlyphTests.xctest */,
+				815F0D9F2175B909002C3AA6 /* GlyphUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +175,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		815F0D902175B811002C3AA6 /* GlyphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F0D9A2175B811002C3AA6 /* Build configuration list for PBXNativeTarget "GlyphTests" */;
+			buildPhases = (
+				815F0D8D2175B811002C3AA6 /* Sources */,
+				815F0D8E2175B811002C3AA6 /* Frameworks */,
+				815F0D8F2175B811002C3AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815F0D972175B811002C3AA6 /* PBXTargetDependency */,
+			);
+			name = GlyphTests;
+			productName = GlyphTests;
+			productReference = 815F0D912175B811002C3AA6 /* GlyphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		815F0D9E2175B909002C3AA6 /* GlyphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F0DA62175B909002C3AA6 /* Build configuration list for PBXNativeTarget "GlyphUITests" */;
+			buildPhases = (
+				815F0D9B2175B909002C3AA6 /* Sources */,
+				815F0D9C2175B909002C3AA6 /* Frameworks */,
+				815F0D9D2175B909002C3AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815F0DA52175B909002C3AA6 /* PBXTargetDependency */,
+			);
+			name = GlyphUITests;
+			productName = GlyphUITests;
+			productReference = 815F0D9F2175B909002C3AA6 /* GlyphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9BD31EBA2158FAB4004FD157 /* Glyph */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD31EE62158FAB5004FD157 /* Build configuration list for PBXNativeTarget "Glyph" */;
@@ -141,6 +238,14 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Soumesh Banerjee";
 				TargetAttributes = {
+					815F0D902175B811002C3AA6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9BD31EBA2158FAB4004FD157;
+					};
+					815F0D9E2175B909002C3AA6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9BD31EBA2158FAB4004FD157;
+					};
 					9BD31EBA2158FAB4004FD157 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -160,11 +265,27 @@
 			projectRoot = "";
 			targets = (
 				9BD31EBA2158FAB4004FD157 /* Glyph */,
+				815F0D902175B811002C3AA6 /* GlyphTests */,
+				815F0D9E2175B909002C3AA6 /* GlyphUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		815F0D8F2175B811002C3AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F0D9D2175B909002C3AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BD31EB92158FAB4004FD157 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,6 +299,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		815F0D8D2175B811002C3AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F0D942175B811002C3AA6 /* GlyphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F0D9B2175B909002C3AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F0DA22175B909002C3AA6 /* GlyphUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BD31EB72158FAB4004FD157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +330,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815F0D972175B811002C3AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD31EBA2158FAB4004FD157 /* Glyph */;
+			targetProxy = 815F0D962175B811002C3AA6 /* PBXContainerItemProxy */;
+		};
+		815F0DA52175B909002C3AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD31EBA2158FAB4004FD157 /* Glyph */;
+			targetProxy = 815F0DA42175B909002C3AA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9BD31EC22158FAB4004FD157 /* Main.storyboard */ = {
@@ -214,6 +364,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		815F0D982175B811002C3AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlyphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumesh.Glyph.GlyphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glyph.app/Glyph";
+			};
+			name = Debug;
+		};
+		815F0D992175B811002C3AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlyphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumesh.Glyph.GlyphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glyph.app/Glyph";
+			};
+			name = Release;
+		};
+		815F0DA72175B909002C3AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlyphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumesh.Glyph.GlyphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glyph;
+			};
+			name = Debug;
+		};
+		815F0DA82175B909002C3AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlyphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumesh.Glyph.GlyphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glyph;
+			};
+			name = Release;
+		};
 		9BD31EE42158FAB5004FD157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,6 +597,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		815F0D9A2175B811002C3AA6 /* Build configuration list for PBXNativeTarget "GlyphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F0D982175B811002C3AA6 /* Debug */,
+				815F0D992175B811002C3AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F0DA62175B909002C3AA6 /* Build configuration list for PBXNativeTarget "GlyphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F0DA72175B909002C3AA6 /* Debug */,
+				815F0DA82175B909002C3AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9BD31EB62158FAB4004FD157 /* Build configuration list for PBXProject "Glyph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
